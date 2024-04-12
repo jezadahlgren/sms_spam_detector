@@ -25,7 +25,10 @@ The bulk of the supoort was provided through class lessons and ChatGPT.
 **Data analysis process and results:**
 
 The resulting app testing the following statements to see if they were spam or not: 
-    | (Not Spam) | 1. You are a lucky winner of $5000! |
-    | (Not Spam) | 2. You won 2 free tickets to the Super Bowl. |
-    | (Spam)     | 3. You won 2 free tickets to the Super Bowl text us to claim your prize. |
-    | (Spam)     | 4. Thanks for registering. Text 4343 to receive free updates on medicare. |
+
+| Classification | Text Message                                              |
+|----------------|-----------------------------------------------------------|
+| (Not Spam)     | You are a lucky winner of $5000!                          |
+| (Not Spam)     | You won 2 free tickets to the Super Bowl.                 |
+| (Spam)         | You won 2 free tickets to the Super Bowl text us to claim your prize. |
+| (Spam)         | Thanks for registering. Text 4343 to receive free updates on medicare. |
